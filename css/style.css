@@ -12,7 +12,7 @@ nav {
     background-color: #467473;
 }
 main {
-    background-color:#f77272;
+    background-color:#8f1919;
     font-size: 80%;
 }
 footer {
@@ -31,4 +31,5 @@ h1 {
 }
 p {
     line-height: 150%;
+    color: rgb(251, 229, 229);
 }
