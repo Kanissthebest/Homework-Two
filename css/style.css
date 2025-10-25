@@ -2,18 +2,21 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
 }
+a{
+    color: rgb(255, 255, 255);
+}
 header {
     background-color: #8cd3c5;
 }
 nav {
-    background-color: #c8e0df;
+    background-color: #467473;
 }
 main {
-    background-color:#d7a3a3;
+    background-color:#f77272;
     font-size: 80%;
 }
 footer {
-    background-color: #bab4d4;
+    background-color: #467473;
     text-align: center;
 }
 li {
