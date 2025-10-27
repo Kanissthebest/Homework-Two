@@ -2,14 +2,23 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
 }
+body>a{
+    color: blue;
+}
 a{
     color: rgb(255, 255, 255);
 }
 header {
-    background-color: #8cd3c5;
+    background-color: #467473;
+}
+header>img {
+    width: 10%;
+    position: relative;
+    top: 25px;
 }
 nav {
-    background-color: #467473;
+    display: inline-block;
+    width: 80%;
 }
 main {
     background-color:#8f1919;
@@ -21,15 +30,30 @@ footer {
 }
 li {
     display: inline-block;
-    width: 30%;
     text-align: center;
+    margin: 0 10px;
+    margin-left: 0;
+    padding: 0 10px;
 }
 h1 {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(60, 51, 77);
+    color: rgb(245, 161, 34);
 }
 p {
     line-height: 150%;
     color: rgb(255, 252, 252);
+}
+.park_photos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.neighborhood_photos {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-evenly;
+    gap: 10px; 
+    align-items: center;
+    justify-items: center;
 }
