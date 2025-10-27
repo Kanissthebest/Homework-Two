@@ -19,6 +19,7 @@ header>img {
 nav {
     display: inline-block;
     width: 80%;
+    text-align: center;
 }
 main {
     background-color:#8f1919;
@@ -29,10 +30,10 @@ footer {
     text-align: center;
 }
 li {
+    list-style-type: none;
     display: inline-block;
     text-align: center;
-    margin: 0 10px;
-    margin-left: 0;
+    margin: 0 8%;
     padding: 0 10px;
 }
 h1 {
